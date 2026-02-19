@@ -20,7 +20,7 @@ test:
 	npm run test:run
 
 e2e:
-	docker compose -f docker-compose.e2e.yml run --rm e2e
+	npm run e2e:ci
 
 check: format lint typecheck test build e2e
 
@@ -32,3 +32,6 @@ docker-prod:
 
 docker-down:
 	docker compose down
+
+docker-e2e:
+	docker compose -f docker-compose.e2e.yml run --rm e2e

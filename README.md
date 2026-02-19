@@ -165,6 +165,7 @@ npm ci
 - `nginx.conf` — Nginx SPA routing config
 - `docker-compose.yml` — production-style container (Nginx runtime)
 - `docker-compose.override.yml` — dev overrides (bind mounts + dev server)
+- `docker-compose.e2e.yml` - Playwright end-to-end tests inside docker container
 
 - `.github/` — CI workflow + Dependabot configuration
 - `commitlint.config.cjs` — commit message lint rules
@@ -172,6 +173,7 @@ npm ci
 
 - `package.json` / `package-lock.json` — dependencies + scripts
 - `node_modules/` — installed dependencies (not committed)
+- `Makefile` - 
 
 ### Notes
 
