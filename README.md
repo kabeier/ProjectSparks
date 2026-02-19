@@ -173,7 +173,7 @@ npm ci
 
 - `package.json` / `package-lock.json` — dependencies + scripts
 - `node_modules/` — installed dependencies (not committed)
-- `Makefile` - 
+- `Makefile` - convenience shortcuts for common tasks 
 
 ### Notes
 

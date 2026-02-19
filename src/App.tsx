@@ -6,14 +6,6 @@ import Projects from "./pages/Projects";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
-const Header = () => {
-  return (
-    <header>
-      <h1>Project Sparks</h1>
-      <hr />
-    </header>
-  );
-};
 export default function App() {
   return (
     <>
